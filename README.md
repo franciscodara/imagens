@@ -17,19 +17,19 @@ Obs.: Serve pra qualquer Distro base Debian (Ubuntu, Mint, ElementareOS etc).
 
 3) Insert o comando $ sudo apt-get install mariadb-server (No meu caso já estava instalado).
 
-![3](imagens/tutorial_linux_03.png)
+![3](/tutorial_linux_03.png)
 
 4) Execute o comando $ mysql --version para conferir a instalação (note que o MariaDB é fork do MySQL e funciona com os mesmos comandos).
 
-![4](imagens/tutorial_linux_04.png)
+![4](/tutorial_linux_04.png)
 
 5) Insert o comando $ sudo apt-get install apache2.
 
-![5](imagens/tutorial_linux_05.png)
+![5](/tutorial_linux_05.png)
 
 6) Insert command $ sudo apt-get install php php-cli libapache2-mod-php php-mysql php-curl php-memcached php-dev php-sqlite3 php-mbstring php-gd php-json (Confira os pacotes e versões a serem instaladas e confirme com um ‘S’, provavelmente será o PHP >=7).
 
-![6](imagens/tutorial_linux_06.png)
+![6](/tutorial_linux_06.png)
 
 7) *Opcional*, eu instalo essas dependencias por comodidade ao trabalhar com meu webserver localhost: 
 ```
@@ -42,7 +42,7 @@ $ sudo a2enmod rewrite
 $ sudo apt-get install phpmyadmin
 ```
 
-![8](imagens/tutorial_linux_08.png)
+![8](/tutorial_linux_08.png)
 
 O phpmyadmin será instalado e um um determinado instante abrirá uma janela ‘azul’ solicitando senha para o mysql e confirmação da mesma, insira uma senha segura que vc não se esqueça, ela será usada a todo momento. No meu caso eu já instalei e não tem como tirar print, mas deixarei uma imagem ilustrativa.
 
@@ -84,7 +84,7 @@ Responda ‘Y’ para todas.
 *All done!  If you've completed all of the above steps, your MariaDB installation should now be secure.
 Thanks for using MariaDB!*
 
-![9](imagens/tutorial_linux_09.png)
+![9](/tutorial_linux_09.png)
 
 Tudo pronto.
 
