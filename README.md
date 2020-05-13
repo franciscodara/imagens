@@ -11,7 +11,7 @@ Obs.: Serve pra qualquer Distro base Debian (Ubuntu, Mint, ElementareOS etc).
 1) Comecemos tudo com Ctrl+Alt+T para abrir o terminal.
 2) Insert o comando $ sudo apt-get update para atualizar seus pacotes.
 
-![2](imagens/tutorial_linux_02.png)
+![2](/tutorial_linux_02.png)
 
 ## Servidor
 
